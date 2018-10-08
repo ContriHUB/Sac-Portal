@@ -77,13 +77,9 @@ a:hover {
 .navbar.navbar-default .navbar-toggle {
   margin-top: 32px;
 }
-.navbar-header .navbar-brand {
-  padding: 5px 0;
-}
 .navbar-header .navbar-brand a {
   height: auto;
   display: inline-block;
-  margin-top: 8px;
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle {
@@ -103,7 +99,6 @@ a:hover {
   background: transparent;
 }
 #top-bar.animated-header {
-  padding: 20px 0;
   background: #ffffff;
   box-shadow: none;
 }
