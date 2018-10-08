@@ -1,17 +1,22 @@
-.holder { 
-  background-color:black;
-  width:400px;
-  height:450px;
-  overflow:hidden;
-  padding:10px;
-  font-family:Helvetica;
+@media screen and (min-width: 992px) {
+  .holder {
+    margin: 0 !important;
+  }
+}
+
+.holder {
+  background: #000;
+  height: 450px;
+  margin: 15px 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  font-family: Helvetica;
   opacity: 0.8;
 }
 .holder .mask {
   position: relative;
   left: 0px;
   top: 10px;
-  width:400px;
   height:450px;
   overflow: hidden;
 }
