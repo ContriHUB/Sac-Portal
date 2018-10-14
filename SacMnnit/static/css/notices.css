@@ -50,7 +50,7 @@
 .notices2{
     display: inline-block;
     animation: marquee2 15s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .notices2:hover{
