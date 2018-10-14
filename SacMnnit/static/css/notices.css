@@ -7,14 +7,14 @@
   font-family:Helvetica;
   opacity: 0.8;
 }
-.holder .mask {
+/*.holder .mask {
   position: relative;
   left: 0px;
   top: 10px;
   width:400px;
   height:450px;
   overflow: hidden;
-}
+}*/
 .holder ul {
   list-style:none;
   margin:0;
