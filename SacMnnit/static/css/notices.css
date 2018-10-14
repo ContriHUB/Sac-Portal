@@ -39,6 +39,10 @@
     white-space: wrap;
 }
 
+.notics:hover{
+  animation-play-state: paused;
+}
+
 .notices1{
     display: inline-block;
     animation: marquee 22s linear infinite;
