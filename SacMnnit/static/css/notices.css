@@ -32,9 +32,15 @@
   text-decoration:none;
 }
 
+.notices{
+    border: 2px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .notices1{
     display: inline-block;
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
 }
 
 .notices1:hover{
@@ -43,7 +49,7 @@
 
 .notices2{
     display: inline-block;
-    animation: marquee2 10s linear infinite;
+    animation: marquee2 15s linear infinite;
     animation-delay: 2s;
 }
 
