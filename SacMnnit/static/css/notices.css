@@ -7,14 +7,14 @@
   font-family:Helvetica;
   opacity: 0.8;
 }
-/*.holder .mask {
+.holder .mask {
   position: relative;
   left: 0px;
   top: 10px;
   width:400px;
   height:450px;
   overflow: hidden;
-}*/
+}
 .holder ul {
   list-style:none;
   margin:0;
@@ -59,18 +59,18 @@
 
 @keyframes marquee{
     from{
-        transform: translateY(120%);
+        transform: translateY(0%);
     }
     to{
-        transform: translateY(-220%)
+        transform: translateY(-100%)
     }
 }
 
 @keyframes marquee2{
     from{
-        transform: translateY(120%);
+        transform: translateY(0%);
     }
     to{
-        transform: translateY(-220%)
+        transform: translateY(-100%)
     }
 }
