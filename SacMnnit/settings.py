@@ -1,5 +1,5 @@
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os 
+import os
 from unipath import Path
 from decouple import Csv,config
 import dj_database_url
@@ -19,8 +19,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': PROJECT_DIR.child('db.sqlite3'),
     }
-} 
-ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in']
+}
+ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in','sacportalazd.herokuapp.com']
 
 #for local
 
@@ -32,24 +32,24 @@ ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in']
 #         default=config('DATABASE_URL'),
 #     )
 # }
-# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())   
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 #end heroku
 
-ADMINS = (   
+ADMINS = (
     ('WOC','wocmnnit@gmail.com'),
     ('Deepak Bharti','deepakbharti823@gmail.com'),
     )
-      
-  
+
+
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 
-''' 
+'''
 If using gmail, you will need to
-unlock Captcha to enable Django 
+unlock Captcha to enable Django
 to  send for you:
 https://accounts.google.com/displayunlockcaptcha
 '''
@@ -88,7 +88,7 @@ TEMPLATES = [
         'DIRS': [PROJECT_DIR.child('templates'),
                 PROJECT_DIR.child('templates','templates'),
                 ],
-        'APP_DIRS': True, 
+        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -155,9 +155,9 @@ SITE_ID = 1
 # added on 15_jan
 LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/'
- 
+
 ALLOWED_SIGNUP_DOMAINS = ['*']
- 
+
 FILE_UPLOAD_TEMP_DIR = '/tmp/'
 FILE_UPLOAD_PERMISSIONS = 0o644
 
