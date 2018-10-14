@@ -40,7 +40,7 @@
 
 .notices1{
     display: inline-block;
-    animation: marquee 18s linear infinite;
+    animation: marquee 22s linear infinite;
 }
 
 .notices1:hover{
@@ -49,7 +49,7 @@
 
 .notices2{
     display: inline-block;
-    animation: marquee2 18s linear infinite;
+    animation: marquee2 22s linear infinite;
     animation-delay: 1.25s;
 }
 
@@ -62,7 +62,7 @@
         transform: translateY(120%);
     }
     to{
-        transform: translateY(-220%)
+        transform: translateY(-170%)
     }
 }
 
@@ -71,6 +71,6 @@
         transform: translateY(120%);
     }
     to{
-        transform: translateY(-220%)
+        transform: translateY(-170%)
     }
 }
