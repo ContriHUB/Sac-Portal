@@ -62,7 +62,7 @@
         transform: translateY(120%);
     }
     to{
-        transform: translateY(-170%)
+        transform: translateY(-200%)
     }
 }
 
@@ -71,6 +71,6 @@
         transform: translateY(120%);
     }
     to{
-        transform: translateY(-170%)
+        transform: translateY(-200%)
     }
 }
