@@ -1,4 +1,4 @@
-.holder { 
+.holder {
   background-color:black;
   width:400px;
   height:450px;
@@ -30,4 +30,41 @@
 .holder ul li a {
   color:white;
   text-decoration:none;
+}
+
+.notices1{
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+.notices1:hover{
+    animation-play-state: paused;
+}
+
+.notices2{
+    display: inline-block;
+    animation: marquee2 10s linear infinite;
+    animation-delay: 2s;
+}
+
+.notices2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateY(120%);
+    }
+    to{
+        transform: translateY(-220%)
+    }
+}
+
+@keyframes marquee2{
+    from{
+        transform: translateY(120%);
+    }
+    to{
+        transform: translateY(-220%)
+    }
 }
