@@ -23,6 +23,7 @@
 }
 .holder ul li {
   font-size: 20px;
+  font: Helvetica;
   color: blue;
   padding:10px 0px;
 }
