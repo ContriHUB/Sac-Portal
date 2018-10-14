@@ -68,9 +68,9 @@
 
 @keyframes marquee2{
     from{
-        transform: translateY(0%);
+        transform: translateY(120%);
     }
     to{
-        transform: translateY(-100%)
+        transform: translateY(-220%)
     }
 }
