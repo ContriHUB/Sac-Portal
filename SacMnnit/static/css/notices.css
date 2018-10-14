@@ -35,7 +35,7 @@
 .notices{
     border: 2px solid black;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .notices1{
