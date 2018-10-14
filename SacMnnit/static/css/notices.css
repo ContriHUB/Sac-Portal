@@ -23,13 +23,13 @@
 }
 .holder ul li {
   font-size: 20px;
-  color: white;
+  color: blue;
   padding:10px 0px;
 }
 
 .holder ul li a {
-  color:white;
-  text-decoration:none;
+  color: white;
+  text-decoration: none;
 }
 
 .notices{
