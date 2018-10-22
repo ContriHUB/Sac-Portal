@@ -1,11 +1,11 @@
 jQuery.fn.liScroll = function(settings) {
 	settings = jQuery.extend({
-		travelocity: 0.03
+		travelocity: 0.07
 		}, settings);		
 		return this.each(function(){
 				var $strip = jQuery(this);
 				$strip.addClass("newsticker")
-				var stripHeight = 1;
+				var stripHeight = 0;
 				$strip.find("li").each(function(i){
 					stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
 				});
